@@ -879,6 +879,7 @@ OBSBasic {
     qproperty-groupIcon: url(./Twitchy-Lite/sources/group.svg);
     qproperty-sceneIcon: url(./Twitchy-Lite/sources/scene.svg);
     qproperty-defaultIcon: url(./Twitchy-Lite/sources/default.svg);
+    qproperty-audioProcessOutputIcon: url(./Twitchy-Lite/sources/windowaudio.svg);
 }
 
 /* Scene Tree */
