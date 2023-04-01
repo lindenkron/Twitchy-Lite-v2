@@ -349,6 +349,19 @@ QToolBar {
     border: none;
 }
 
+QPushButton[toolButton="true"],
+QToolButton {
+	background: transparent;
+	border: none;
+    padding: 1px;
+    margin: 1px;
+}
+
+QPushButton[toolButton="true"]:last-child,
+QToolButton:last-child {
+    margin-right: 0px;
+}
+
 QToolButton:hover {
     background-color: rgb(120,44,232); /* lightPurple */
     border-radius: 3px;
