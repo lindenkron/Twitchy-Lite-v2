@@ -97,7 +97,6 @@ QWidget {
 
 * [frameShape="1"], * [frameShape="2"], * [frameShape="3"], * [frameShape="4"], * [frameShape="5"], * [frameShape="6"] {
     border: 1px solid rgb(14,14,16); /* veryDark */
-	border-radius: 5px;
 }
 
 /* SourceTree */
@@ -999,7 +998,7 @@ OBSYoutubeActions {
     color: rgb(225,224,225); /* veryLight */
     background-color: rgb(76,76,76);
     border: none;
-    border-radius: 3px;
+    border-radi>us: 3px;
     padding: 4px 20px;
 }
 
