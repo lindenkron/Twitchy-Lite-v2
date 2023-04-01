@@ -1,3 +1,4 @@
+
 /******************************************************************************/
 /*                                                                            */
 /* This is a very modified version of the "Dark" theme shipped with OBS.      */
@@ -113,7 +114,7 @@ SourceTree::item:selected:!active {
 	/* border-radius: 5px; */
 }
 
-SourceTree::item:selected {
+    Tree::item:selected {
 	background-color: rgb(120,44,232); /* lightPurple */
 	border: 2px solid rgb(145,70,255); /* twitchPurple */
 	/* border-radius: 5px; */
@@ -861,6 +862,10 @@ QPushButton#extraPanelDelete:pressed {
     background-color: rgb(120,44,232); /* lightPurple */
 }
 
+OBSMissingFiles {
+	qproperty-warningIcon: url(./Twitchy-Lite/alert.svg);
+}
+
 /* Source Icons */
 
 OBSBasic {
@@ -920,6 +925,30 @@ SceneTree {
 
 * [themeID="replayIconSmall"] {
     qproperty-icon: url(./Twitchy-Lite/save.svg);
+}
+
+/* Studio Mode T-Bar */
+
+QSlider[themeID="tBarSlider"] {
+	height: 24px;
+}
+
+QSlider::groove:horizontal[themeID="tBarSlider"] {
+	border: 1px solid rgb(76,76,76);
+	height: 5px;
+	background: palette(base);
+}
+
+QSlider::sub-page:horizontal[themeID="tBarSlider"] {
+	background: palette(base);;
+	border: 1px solid rgb(76,76,76);
+}
+
+QSlider::handle:horizontal[themeID="tBarSlider"] {
+	background-color: rgb(210,210,210);
+	width: 12px;
+	height: 24px;
+	margin: -24px 0px;
 }
 
 /* Media icons */
