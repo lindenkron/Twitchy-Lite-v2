@@ -496,6 +496,7 @@ QComboBox:on {
 QComboBox:editable {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
+    selection-background-color: rgb(60,60,60);
 }
 
 QComboBox::drop-down:editable {
